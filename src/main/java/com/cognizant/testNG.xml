@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Zigwheels Suite" annotations="JDK" parallel="tests">
+         
+   <test name="Login">
+     <classes>
+       <class name="com.cognizant.AppTest"/>
+     </classes>
+   </test>
+   
+   
+   
+   
+   
+  
+   
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [TestNG]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testing TestNG(failed)(failed)">
+    <classes>
+      <class name="com.cognizant.UsedCars">
+        <methods>
+          <include name="usedC"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.cognizant.UsedCars -->
+    </classes>
+  </test> <!-- Testing TestNG(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [TestNG]] -->

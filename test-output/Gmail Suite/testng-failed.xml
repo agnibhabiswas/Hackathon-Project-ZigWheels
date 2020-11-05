@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Gmail Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="bikes(failed)">
+    <classes>
+      <class name="com.cognizant.Zigwheels">
+        <methods>
+          <include name="createDriver"/>
+          <include name="hondaBikes"/>
+          <include name="selectDetails"/>
+          <include name="newBikes"/>
+        </methods>
+      </class> <!-- com.cognizant.Zigwheels -->
+    </classes>
+  </test> <!-- bikes(failed) -->
+  <test thread-count="1" parallel="tests" name="Cars(failed)">
+    <classes>
+      <class name="com.cognizant.UsedCars">
+        <methods>
+          <include name="createDriver"/>
+          <include name="closeBrowser"/>
+          <include name="hondaBikes"/>
+          <include name="selectDetails"/>
+          <include name="newBikes"/>
+        </methods>
+      </class> <!-- com.cognizant.UsedCars -->
+    </classes>
+  </test> <!-- Cars(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->

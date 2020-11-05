@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Zigwheels Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Login(failed)">
+    <classes>
+      <class name="com.cognizant.AppTest">
+        <methods>
+          <include name="sortCar26"/>
+          <include name="sortCar25"/>
+          <include name="sortCar24"/>
+          <include name="sortCar9"/>
+          <include name="sortCar7"/>
+          <include name="sortCar8"/>
+          <include name="sortCar22"/>
+          <include name="sortCar21"/>
+          <include name="sortCar6"/>
+          <include name="sortCar23"/>
+          <include name="sortCar20"/>
+          <include name="sortCar15"/>
+          <include name="sortCar14"/>
+          <include name="createDriver"/>
+          <include name="sortCar16"/>
+          <include name="sortCar19"/>
+          <include name="sortCar18"/>
+          <include name="sortCar13"/>
+          <include name="sortCar17"/>
+          <include name="closeBrowser"/>
+          <include name="sortCar11"/>
+          <include name="usedC"/>
+          <include name="sortCar10"/>
+          <include name="sortCar12"/>
+          <include name="sortCar1"/>
+          <include name="sortCar5"/>
+          <include name="sortCar3"/>
+          <include name="sortCar4"/>
+          <include name="sortCar2"/>
+        </methods>
+      </class> <!-- com.cognizant.AppTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Zigwheels Suite] -->

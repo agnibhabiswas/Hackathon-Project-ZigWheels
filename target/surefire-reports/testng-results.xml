@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="38" passed="38">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.cognizant.AppTest" duration-ms="186452" started-at="2020-11-05T02:47:04 IST" finished-at="2020-11-05T02:50:11 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="186452" started-at="2020-11-05T02:47:04 IST" finished-at="2020-11-05T02:50:11 IST">
+      <class name="com.cognizant.AppTest">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:com.cognizant.AppTest@e7edb54]" name="createDriver" is-config="true" duration-ms="50839" started-at="2020-11-05T02:47:04 IST" finished-at="2020-11-05T02:47:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="selectLogin()[pri:0, instance:com.cognizant.AppTest@e7edb54]" name="selectLogin" duration-ms="12302" started-at="2020-11-05T02:47:55 IST" finished-at="2020-11-05T02:48:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLogin -->
+        <test-method status="PASS" signature="selectContinueWithGoogle()[pri:1, instance:com.cognizant.AppTest@e7edb54]" name="selectContinueWithGoogle" duration-ms="4595" started-at="2020-11-05T02:48:08 IST" finished-at="2020-11-05T02:48:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectContinueWithGoogle -->
+        <test-method status="PASS" signature="setEmail()[pri:2, instance:com.cognizant.AppTest@e7edb54]" name="setEmail" duration-ms="15812" started-at="2020-11-05T02:48:12 IST" finished-at="2020-11-05T02:48:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setEmail -->
+        <test-method status="PASS" signature="selectNext1()[pri:3, instance:com.cognizant.AppTest@e7edb54]" name="selectNext1" duration-ms="4756" started-at="2020-11-05T02:48:28 IST" finished-at="2020-11-05T02:48:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectNext1 -->
+        <test-method status="PASS" signature="setPassword()[pri:4, instance:com.cognizant.AppTest@e7edb54]" name="setPassword" duration-ms="8697" started-at="2020-11-05T02:48:33 IST" finished-at="2020-11-05T02:48:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPassword -->
+        <test-method status="PASS" signature="selectNext2()[pri:5, instance:com.cognizant.AppTest@e7edb54]" name="selectNext2" duration-ms="6318" started-at="2020-11-05T02:48:41 IST" finished-at="2020-11-05T02:48:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectNext2 -->
+        <test-method status="PASS" signature="newBikes()[pri:6, instance:com.cognizant.AppTest@e7edb54]" name="newBikes" duration-ms="10985" started-at="2020-11-05T02:48:48 IST" finished-at="2020-11-05T02:48:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newBikes -->
+        <test-method status="PASS" signature="hondaBikes()[pri:7, instance:com.cognizant.AppTest@e7edb54]" name="hondaBikes" duration-ms="8213" started-at="2020-11-05T02:48:59 IST" finished-at="2020-11-05T02:49:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hondaBikes -->
+        <test-method status="PASS" signature="selectDetails()[pri:8, instance:com.cognizant.AppTest@e7edb54]" name="selectDetails" duration-ms="2563" started-at="2020-11-05T02:49:07 IST" finished-at="2020-11-05T02:49:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDetails -->
+        <test-method status="PASS" signature="usedC()[pri:10, instance:com.cognizant.AppTest@e7edb54]" name="usedC" duration-ms="58744" started-at="2020-11-05T02:49:10 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedC -->
+        <test-method status="PASS" signature="sortCar1()[pri:11, instance:com.cognizant.AppTest@e7edb54]" name="sortCar1" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar1 -->
+        <test-method status="PASS" signature="sortCar2()[pri:12, instance:com.cognizant.AppTest@e7edb54]" name="sortCar2" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar2 -->
+        <test-method status="PASS" signature="sortCar3()[pri:13, instance:com.cognizant.AppTest@e7edb54]" name="sortCar3" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar3 -->
+        <test-method status="PASS" signature="sortCar4()[pri:14, instance:com.cognizant.AppTest@e7edb54]" name="sortCar4" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar4 -->
+        <test-method status="PASS" signature="sortCar5()[pri:15, instance:com.cognizant.AppTest@e7edb54]" name="sortCar5" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar5 -->
+        <test-method status="PASS" signature="sortCar7()[pri:17, instance:com.cognizant.AppTest@e7edb54]" name="sortCar7" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar7 -->
+        <test-method status="PASS" signature="sortCar6()[pri:16, instance:com.cognizant.AppTest@e7edb54]" name="sortCar6" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar6 -->
+        <test-method status="PASS" signature="sortCar9()[pri:19, instance:com.cognizant.AppTest@e7edb54]" name="sortCar9" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar9 -->
+        <test-method status="PASS" signature="sortCar8()[pri:18, instance:com.cognizant.AppTest@e7edb54]" name="sortCar8" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar8 -->
+        <test-method status="PASS" signature="sortCar11()[pri:21, instance:com.cognizant.AppTest@e7edb54]" name="sortCar11" duration-ms="1" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar11 -->
+        <test-method status="PASS" signature="sortCar10()[pri:20, instance:com.cognizant.AppTest@e7edb54]" name="sortCar10" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar10 -->
+        <test-method status="PASS" signature="sortCar12()[pri:22, instance:com.cognizant.AppTest@e7edb54]" name="sortCar12" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar12 -->
+        <test-method status="PASS" signature="sortCar13()[pri:23, instance:com.cognizant.AppTest@e7edb54]" name="sortCar13" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar13 -->
+        <test-method status="PASS" signature="sortCar14()[pri:24, instance:com.cognizant.AppTest@e7edb54]" name="sortCar14" duration-ms="1" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar14 -->
+        <test-method status="PASS" signature="sortCar15()[pri:25, instance:com.cognizant.AppTest@e7edb54]" name="sortCar15" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar15 -->
+        <test-method status="PASS" signature="sortCar16()[pri:26, instance:com.cognizant.AppTest@e7edb54]" name="sortCar16" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar16 -->
+        <test-method status="PASS" signature="sortCar17()[pri:27, instance:com.cognizant.AppTest@e7edb54]" name="sortCar17" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar17 -->
+        <test-method status="PASS" signature="sortCar18()[pri:28, instance:com.cognizant.AppTest@e7edb54]" name="sortCar18" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar18 -->
+        <test-method status="PASS" signature="sortCar20()[pri:30, instance:com.cognizant.AppTest@e7edb54]" name="sortCar20" duration-ms="1" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar20 -->
+        <test-method status="PASS" signature="sortCar19()[pri:29, instance:com.cognizant.AppTest@e7edb54]" name="sortCar19" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar19 -->
+        <test-method status="PASS" signature="sortCar21()[pri:31, instance:com.cognizant.AppTest@e7edb54]" name="sortCar21" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar21 -->
+        <test-method status="PASS" signature="sortCar22()[pri:32, instance:com.cognizant.AppTest@e7edb54]" name="sortCar22" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar22 -->
+        <test-method status="PASS" signature="sortCar23()[pri:33, instance:com.cognizant.AppTest@e7edb54]" name="sortCar23" duration-ms="1" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar23 -->
+        <test-method status="PASS" signature="sortCar24()[pri:34, instance:com.cognizant.AppTest@e7edb54]" name="sortCar24" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar24 -->
+        <test-method status="PASS" signature="sortCar25()[pri:35, instance:com.cognizant.AppTest@e7edb54]" name="sortCar25" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar25 -->
+        <test-method status="PASS" signature="outputFromExcel1()[pri:37, instance:com.cognizant.AppTest@e7edb54]" name="outputFromExcel1" duration-ms="410" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- outputFromExcel1 -->
+        <test-method status="PASS" signature="sortCar26()[pri:36, instance:com.cognizant.AppTest@e7edb54]" name="sortCar26" duration-ms="0" started-at="2020-11-05T02:50:08 IST" finished-at="2020-11-05T02:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortCar26 -->
+        <test-method status="PASS" signature="outputFromExcel2()[pri:38, instance:com.cognizant.AppTest@e7edb54]" name="outputFromExcel2" duration-ms="468" started-at="2020-11-05T02:50:09 IST" finished-at="2020-11-05T02:50:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- outputFromExcel2 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.cognizant.AppTest@e7edb54]" name="closeBrowser" is-config="true" duration-ms="1631" started-at="2020-11-05T02:50:09 IST" finished-at="2020-11-05T02:50:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.cognizant.AppTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.cognizant.AppTest -->
+</testng-results>

@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-com_cognizant_AppTest">
+              <span class="suite-name border-passed">com.cognizant.AppTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-com_cognizant_AppTest">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-com_cognizant_AppTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-com_cognizant_AppTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-com_cognizant_AppTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-com_cognizant_AppTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-com_cognizant_AppTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-com_cognizant_AppTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">38 methods,   38 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-com_cognizant_AppTest" class="hide-methods passed suite-com_cognizant_AppTest"> (hide)</a> <!-- hide-methods passed suite-com_cognizant_AppTest -->
+                      <a href="#" panel-name="suite-com_cognizant_AppTest" class="show-methods passed suite-com_cognizant_AppTest"> (show)</a> <!-- show-methods passed suite-com_cognizant_AppTest -->
+                    </span>
+                    <div class="method-list-content passed suite-com_cognizant_AppTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="hondaBikes">hondaBikes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="newBikes">newBikes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="outputFromExcel1">outputFromExcel1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="outputFromExcel2">outputFromExcel2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="selectContinueWithGoogle">selectContinueWithGoogle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="selectDetails">selectDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="selectLogin">selectLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="selectNext1">selectNext1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="selectNext2">selectNext2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="setEmail">setEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="setPassword">setPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar1">sortCar1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar10">sortCar10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar11">sortCar11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar12">sortCar12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar13">sortCar13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar14">sortCar14</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar15">sortCar15</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar16">sortCar16</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar17">sortCar17</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar18">sortCar18</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar19">sortCar19</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar2">sortCar2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar20">sortCar20</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar21">sortCar21</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar22">sortCar22</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar23">sortCar23</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar24">sortCar24</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar25">sortCar25</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar26">sortCar26</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar3">sortCar3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar4">sortCar4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar5">sortCar5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar6">sortCar6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar7">sortCar7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar8">sortCar8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="sortCar9">sortCar9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com_cognizant_AppTest" title="com.cognizant.AppTest" hash-for-method="usedC">usedC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-com_cognizant_AppTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-com_cognizant_AppTest" class="panel com_cognizant_AppTest">
+          <div class="suite-com_cognizant_AppTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cognizant.AppTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="hondaBikes">
+                  </a> <!-- hondaBikes -->
+                  <span class="method-name">hondaBikes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newBikes">
+                  </a> <!-- newBikes -->
+                  <span class="method-name">newBikes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="outputFromExcel1">
+                  </a> <!-- outputFromExcel1 -->
+                  <span class="method-name">outputFromExcel1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="outputFromExcel2">
+                  </a> <!-- outputFromExcel2 -->
+                  <span class="method-name">outputFromExcel2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectContinueWithGoogle">
+                  </a> <!-- selectContinueWithGoogle -->
+                  <span class="method-name">selectContinueWithGoogle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectDetails">
+                  </a> <!-- selectDetails -->
+                  <span class="method-name">selectDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectLogin">
+                  </a> <!-- selectLogin -->
+                  <span class="method-name">selectLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectNext1">
+                  </a> <!-- selectNext1 -->
+                  <span class="method-name">selectNext1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectNext2">
+                  </a> <!-- selectNext2 -->
+                  <span class="method-name">selectNext2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setEmail">
+                  </a> <!-- setEmail -->
+                  <span class="method-name">setEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setPassword">
+                  </a> <!-- setPassword -->
+                  <span class="method-name">setPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar1">
+                  </a> <!-- sortCar1 -->
+                  <span class="method-name">sortCar1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar10">
+                  </a> <!-- sortCar10 -->
+                  <span class="method-name">sortCar10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar11">
+                  </a> <!-- sortCar11 -->
+                  <span class="method-name">sortCar11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar12">
+                  </a> <!-- sortCar12 -->
+                  <span class="method-name">sortCar12</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar13">
+                  </a> <!-- sortCar13 -->
+                  <span class="method-name">sortCar13</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar14">
+                  </a> <!-- sortCar14 -->
+                  <span class="method-name">sortCar14</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar15">
+                  </a> <!-- sortCar15 -->
+                  <span class="method-name">sortCar15</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar16">
+                  </a> <!-- sortCar16 -->
+                  <span class="method-name">sortCar16</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar17">
+                  </a> <!-- sortCar17 -->
+                  <span class="method-name">sortCar17</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar18">
+                  </a> <!-- sortCar18 -->
+                  <span class="method-name">sortCar18</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar19">
+                  </a> <!-- sortCar19 -->
+                  <span class="method-name">sortCar19</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar2">
+                  </a> <!-- sortCar2 -->
+                  <span class="method-name">sortCar2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar20">
+                  </a> <!-- sortCar20 -->
+                  <span class="method-name">sortCar20</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar21">
+                  </a> <!-- sortCar21 -->
+                  <span class="method-name">sortCar21</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar22">
+                  </a> <!-- sortCar22 -->
+                  <span class="method-name">sortCar22</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar23">
+                  </a> <!-- sortCar23 -->
+                  <span class="method-name">sortCar23</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar24">
+                  </a> <!-- sortCar24 -->
+                  <span class="method-name">sortCar24</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar25">
+                  </a> <!-- sortCar25 -->
+                  <span class="method-name">sortCar25</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar26">
+                  </a> <!-- sortCar26 -->
+                  <span class="method-name">sortCar26</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar3">
+                  </a> <!-- sortCar3 -->
+                  <span class="method-name">sortCar3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar4">
+                  </a> <!-- sortCar4 -->
+                  <span class="method-name">sortCar4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar5">
+                  </a> <!-- sortCar5 -->
+                  <span class="method-name">sortCar5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar6">
+                  </a> <!-- sortCar6 -->
+                  <span class="method-name">sortCar6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar7">
+                  </a> <!-- sortCar7 -->
+                  <span class="method-name">sortCar7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar8">
+                  </a> <!-- sortCar8 -->
+                  <span class="method-name">sortCar8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortCar9">
+                  </a> <!-- sortCar9 -->
+                  <span class="method-name">sortCar9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usedC">
+                  </a> <!-- usedC -->
+                  <span class="method-name">usedC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com_cognizant_AppTest-class-passed -->
+        </div> <!-- panel com_cognizant_AppTest -->
+        <div panel-name="test-xml-com_cognizant_AppTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;com.cognizant.AppTest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.cognizant.AppTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- com.cognizant.AppTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-com_cognizant_AppTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for com.cognizant.AppTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-com_cognizant_AppTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for com.cognizant.AppTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-com_cognizant_AppTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for com.cognizant.AppTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_com_cognizant_AppTest');
+function tableData_com_cognizant_AppTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(38);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'usedC')
+data.setCell(0, 2, 'com.cognizant.AppTest')
+data.setCell(0, 3, 58744);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'setEmail')
+data.setCell(1, 2, 'com.cognizant.AppTest')
+data.setCell(1, 3, 15812);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selectLogin')
+data.setCell(2, 2, 'com.cognizant.AppTest')
+data.setCell(2, 3, 12302);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'newBikes')
+data.setCell(3, 2, 'com.cognizant.AppTest')
+data.setCell(3, 3, 10985);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'setPassword')
+data.setCell(4, 2, 'com.cognizant.AppTest')
+data.setCell(4, 3, 8697);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'hondaBikes')
+data.setCell(5, 2, 'com.cognizant.AppTest')
+data.setCell(5, 3, 8213);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'selectNext2')
+data.setCell(6, 2, 'com.cognizant.AppTest')
+data.setCell(6, 3, 6318);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'selectNext1')
+data.setCell(7, 2, 'com.cognizant.AppTest')
+data.setCell(7, 3, 4756);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'selectContinueWithGoogle')
+data.setCell(8, 2, 'com.cognizant.AppTest')
+data.setCell(8, 3, 4595);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'selectDetails')
+data.setCell(9, 2, 'com.cognizant.AppTest')
+data.setCell(9, 3, 2563);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'outputFromExcel2')
+data.setCell(10, 2, 'com.cognizant.AppTest')
+data.setCell(10, 3, 468);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'outputFromExcel1')
+data.setCell(11, 2, 'com.cognizant.AppTest')
+data.setCell(11, 3, 410);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'sortCar23')
+data.setCell(12, 2, 'com.cognizant.AppTest')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'sortCar14')
+data.setCell(13, 2, 'com.cognizant.AppTest')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'sortCar20')
+data.setCell(14, 2, 'com.cognizant.AppTest')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'sortCar11')
+data.setCell(15, 2, 'com.cognizant.AppTest')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'sortCar22')
+data.setCell(16, 2, 'com.cognizant.AppTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'sortCar9')
+data.setCell(17, 2, 'com.cognizant.AppTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'sortCar21')
+data.setCell(18, 2, 'com.cognizant.AppTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'sortCar13')
+data.setCell(19, 2, 'com.cognizant.AppTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'sortCar7')
+data.setCell(20, 2, 'com.cognizant.AppTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'sortCar5')
+data.setCell(21, 2, 'com.cognizant.AppTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'sortCar15')
+data.setCell(22, 2, 'com.cognizant.AppTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'sortCar2')
+data.setCell(23, 2, 'com.cognizant.AppTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'sortCar16')
+data.setCell(24, 2, 'com.cognizant.AppTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'sortCar3')
+data.setCell(25, 2, 'com.cognizant.AppTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'sortCar24')
+data.setCell(26, 2, 'com.cognizant.AppTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'sortCar8')
+data.setCell(27, 2, 'com.cognizant.AppTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'sortCar17')
+data.setCell(28, 2, 'com.cognizant.AppTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'sortCar18')
+data.setCell(29, 2, 'com.cognizant.AppTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'sortCar6')
+data.setCell(30, 2, 'com.cognizant.AppTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'sortCar12')
+data.setCell(31, 2, 'com.cognizant.AppTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'sortCar25')
+data.setCell(32, 2, 'com.cognizant.AppTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'sortCar1')
+data.setCell(33, 2, 'com.cognizant.AppTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'sortCar19')
+data.setCell(34, 2, 'com.cognizant.AppTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'sortCar26')
+data.setCell(35, 2, 'com.cognizant.AppTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'sortCar10')
+data.setCell(36, 2, 'com.cognizant.AppTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'sortCar4')
+data.setCell(37, 2, 'com.cognizant.AppTest')
+data.setCell(37, 3, 0);
+window.suiteTableData['com_cognizant_AppTest']= { tableData: data, tableDiv: 'times-div-com_cognizant_AppTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-com_cognizant_AppTest">
+              </div> <!-- times-div-com_cognizant_AppTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-com_cognizant_AppTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for com.cognizant.AppTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-com_cognizant_AppTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-com_cognizant_AppTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cognizant.AppTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">createDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">selectLogin</span>
+                <span class="method-start">50882 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectContinueWithGoogle</span>
+                <span class="method-start">63227 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setEmail</span>
+                <span class="method-start">67823 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectNext1</span>
+                <span class="method-start">83636 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setPassword</span>
+                <span class="method-start">88393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectNext2</span>
+                <span class="method-start">97092 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">newBikes</span>
+                <span class="method-start">103411 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hondaBikes</span>
+                <span class="method-start">114397 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectDetails</span>
+                <span class="method-start">122610 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">usedC</span>
+                <span class="method-start">125174 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar1</span>
+                <span class="method-start">183919 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar2</span>
+                <span class="method-start">183920 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar3</span>
+                <span class="method-start">183921 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar4</span>
+                <span class="method-start">183921 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar5</span>
+                <span class="method-start">183922 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar6</span>
+                <span class="method-start">183923 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar7</span>
+                <span class="method-start">183923 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar8</span>
+                <span class="method-start">183924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar9</span>
+                <span class="method-start">183924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar10</span>
+                <span class="method-start">183925 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar11</span>
+                <span class="method-start">183925 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar12</span>
+                <span class="method-start">183926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar13</span>
+                <span class="method-start">183927 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar14</span>
+                <span class="method-start">183927 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar15</span>
+                <span class="method-start">183928 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar16</span>
+                <span class="method-start">183928 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar17</span>
+                <span class="method-start">183929 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar18</span>
+                <span class="method-start">183929 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar19</span>
+                <span class="method-start">183930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar20</span>
+                <span class="method-start">183930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar21</span>
+                <span class="method-start">183931 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar22</span>
+                <span class="method-start">183932 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar23</span>
+                <span class="method-start">183932 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar24</span>
+                <span class="method-start">183933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar25</span>
+                <span class="method-start">183933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortCar26</span>
+                <span class="method-start">183934 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">outputFromExcel1</span>
+                <span class="method-start">183934 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">outputFromExcel2</span>
+                <span class="method-start">184347 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">184816 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
