@@ -1,5 +1,4 @@
 NOTE: This program uses WebDriverManager is a library which allows to automate the management of the drivers required by selenium WebDriver.
-******Link to the repository---->https://github.com/bonigarcia/webdrivermanager
 
 WEBSITE: https://www.zigwheels.com
 
@@ -22,5 +21,5 @@ STEPS TO EXECUTE-------------------->
 9) Extent report will be logged throughout the entirity of the test cases. Screenshots are also taken during the entire code for future reference,
 10) Finally, when all the test cases have been Passed, the browser will be closed. All the aforementioned details will also be printed in the ECLIPSE console window for the user's reference.
 
-NOTE: *Extent Report can be accessed via log.html file present in the root directory of the project folder. 
+NOTE: *Extent Report can be accessed via log.html file present in the ExtentReport folder in the root directory of the project folder. 
               *Screenshots can be accessed via the screenshots folder present in the root directory of the project folder.
